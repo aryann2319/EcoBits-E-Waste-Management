@@ -1,0 +1,119 @@
+#pickup-section{
+    display: flex;
+    transform: translate(0, -14%);
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    max-width: 85%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+#pickup-desc{
+    width: 50%;
+    align-items: flex-start;
+    padding-right: 70px;
+}
+#pickup-desc h2{
+    font-size:2.5rem;
+    font-weight: bolder;
+}
+#pickup-desc p{
+    font-size:1rem;
+    font-weight: 300;
+    line-height: 190%;
+    padding-right: 80px;
+}
+
+#pickup-img img{
+    width: 100%;
+    height: 352px;
+    /* background-image: url("../assets/pickupImg.png"); */
+}
+
+#pickup-contact{
+    margin: auto 0;
+}
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.form-group input{
+    flex: 1;
+    min-width: 220px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.button {
+    margin: 2% 40% 0 40%;
+    background-color: #0d8845;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+}
+.button:hover {
+    background-color: darkgreen;
+}
+
+#scrap-rates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 40px 20px;
+}
+  
+#scrap-rates h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #0c984b;
+    margin: 20px 0 15px 0;
+}
+
+.line {
+    width: 10%;
+    border-top: 1px solid #0c984b;
+    margin: 0 10px 0 10px;
+}
+
+.scrap-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    max-width: 1100px;
+    padding: 20px;
+    margin: auto;
+}
+.s-card {
+    border: 1px solid rgb(186, 186, 186);
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 0px 30px 0px;
+    width: 180px;
+    height: 200px;
+}
+.s-card img {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+.s-card h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.s-card p {
+    color: gray;
+    font-size: 14px;
+}

@@ -1,0 +1,66 @@
+.welcome-msg {
+  font-weight: 600;
+}
+.user-actions {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  padding: 0 15px 20px 20px;
+}
+.store-icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+.login-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #eaf5ee;
+  padding: 10px;
+  border-radius: 50px;
+  color: #444;
+  border: 1px solid #444;
+}
+.store-hero-banner{
+  background-color: #eaf5ee;
+  /* background-image: url('https://graphicdesignjunction.com/wp-content/uploads/2011/05/pattern-30.jpg'); */
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/653/974/non_2x/abstract-green-stripe-background-with-wavy-lines-pattern-free-vector.jpg');
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  padding: 30px 40px;
+  text-align: center;
+  color: #115446;
+}
+.store-hero-content h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 40px;
+  line-height: 1.2;
+  
+}
+.store-hero-content p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #363535;
+  padding-bottom: 20px;
+}
+#store-filter-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 20px 20px 20px; 
+}
+#store-filter-header h2 {
+  font-size: 2.8rem;
+  font-weight: bolder;
+  color: #0c984b;
+  margin: 20px 0 15px 0;
+  text-align: center;
+}
+.filter-line {
+  width: 15%;
+  border-top: 2px solid #0c984b;
+  margin: 0 10px 0 10px;
+}

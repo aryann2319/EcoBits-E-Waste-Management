@@ -1,0 +1,33 @@
+.my-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+.myItems {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.myItems > * {
+  background-color: #fdfffd;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  height: 100%;
+  border: 0.1rem solid #b0b0b0;
+}
+.myItems img {
+  height: 220px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #fdfffd;
+  padding: 10px;
+}
+.myItems name{
+  padding: 10px;
+}

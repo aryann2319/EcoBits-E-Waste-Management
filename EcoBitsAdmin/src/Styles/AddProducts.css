@@ -1,0 +1,44 @@
+.add-product{
+    margin: 30px 19%;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    border-radius: 6px;
+}
+.add-product h1{
+    text-align: center;
+    color: rgb(64, 163, 87);
+}
+.addproduct-itemfield, .addproduct-uploadfield{
+    width: 100%;
+    font-size: 16px;
+    color: #7b7b7b
+}
+.addproduct-itemfield input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-size: 14px;
+}
+.addproduct-btn{
+    color: white;
+    background-color: rgb(64, 163, 87);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0 40%;
+    margin-top: 60px;
+}
+.addproduct-price{
+    display: flex;
+    gap: 40px;
+}
